@@ -1,42 +1,64 @@
 #main_tittle {
   background-color: #018fd1;
   color: white;
-  font-weight: bold;
-}
-
-#data_section_top th {
-  background-color: #018fd1;
-  color: white;
-}
-
-.table{
-    box-shadow: 0px 1px 1.5px ;
-}
-
-label{
-  font-weight: bold;
-  color: #696969;
-}
-
-.form-check-label{
   font-weight: 600;
-  color: #696969
 }
 
-.form-control{
+#form{
+  margin-top: 5%;
+  margin-left: -6%;
+  margin-right: -6%;
+}
+
+label {
+  font-weight: bold;
+  color: #616161;
+}
+
+.form-check-label {
+  font-weight: 400;
+  color: #616161;
+}
+
+.form-control {
+  margin-top: 5px;
   border: none;
-  border-bottom: 1px solid #C3C3C3;
+  border-bottom: 2px solid #d2d1d1da;
 }
 
-.form-control:focus{
-  border-color: #068ED0;
+.form-control:focus {
+  border-color: #068ed0;
   box-shadow: none;
 }
 
 .form-group label {
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
-.form-group:focus-within label{
-  color: #068ED0;
+.form-group:focus-within label {
+  color: #078fd3;
 }
+
+#data_section_top th{
+  background-color: #018fd1;
+  color: white;
+  text-align: center;
+}
+
+.table {
+  box-shadow: 0px 1px 1.5px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+
+#rodapeLogo{
+  width: 100px;
+}
+
+footer{
+  background-color: #018fd1;
+}
+
