@@ -6,7 +6,7 @@
             <span>© Copyright 2023 | Desenvolvido por</span>
             <img src="public/assets/logo_rodape_alphacode.png" alt="rodapeLogo" id="rodapeLogo">
         </div>
-        <span>©Alphacode IT Solutions 2023</span>
+        <span>©Alphacode IT Solutions 2025</span>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
