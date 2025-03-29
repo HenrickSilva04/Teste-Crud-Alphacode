@@ -1,0 +1,14 @@
+#main_tittle {
+  background-color: #018fd1;
+  color: white;
+  font-weight: bold;
+}
+
+#data_section_top th {
+  background-color: #018fd1;
+  color: white;
+}
+
+.table{
+    box-shadow: 0px 1px 1.5px ;
+}
