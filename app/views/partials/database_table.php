@@ -22,13 +22,13 @@
         while ($row = mysqli_fetch_assoc($result)) {
     ?>
             <tr class="table_data mt-5 mb-5 p-5">
-                <td class="text-center"><?php echo $row['full_Name'] ?></td>
-                <td class="text-center"><?php echo date('d/m/Y', strtotime($row['birth_Date'])) ?></td>
-                <td class="text-center"><?php echo $row['email'] ?></td>
-                <td class="text-center"><?php echo $row['mobile_Phone'] ?></td>
-                <td class="text-center">
-                    <img src="public/assets/editar.png" alt="edit_ast" class="icon">
-                    <img src="public/assets/excluir.png" alt="delete.asset">
+                <td class="text-center align-middle"><?php echo $row['full_Name'] ?></td>
+                <td class="text-center align-middle"><?php echo date('d/m/Y', strtotime($row['birth_Date'])) ?></td>
+                <td class="text-center align-middle"><?php echo $row['email'] ?></td>
+                <td class="text-center align-middle"><?php echo $row['mobile_Phone'] ?></td>
+                <td class="text-center align-middle">
+                    <button class="btn"><a href="/TesteCrudAlphacode/edit_contact.php"><img src="public/assets/editar.png" alt="edit_ast"></a></button>
+                    <button class="btn"><img src="public/assets/excluir.png" alt="delete.asset"></button>
                 </td>
             </tr>
 

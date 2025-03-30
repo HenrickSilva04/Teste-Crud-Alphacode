@@ -16,6 +16,6 @@
     <main>
         <h1 id="main_tittle">
             <a href="/TesteCrudAlphacode/index.php"><img src="public/assets/logo_alphacode.png" alt="Alphacode logo"></a>
-            Cadastro de contatos
+            Editar cadastro
         </h1>
         <div class="container">

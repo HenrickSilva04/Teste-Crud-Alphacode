@@ -1,10 +1,10 @@
     </main>
 
     <footer class="mt-5 p-4 d-flex justify-content-between align-items-center text-center text-white">
-        <span>Termos|Políticas</span>
+        <a style="text-decoration: none; color:white" href="https://site.alphacode.com.br/politica-de-protecao-e-privacidade-de-dados-da-alphacode/" target="_blank"><span>Termos|Políticas</span></a>
         <div class="d-flex align-items-center">
-            <span>© Copyright 2023 | Desenvolvido por</span>
-            <img src="public/assets/logo_rodape_alphacode.png" alt="rodapeLogo" id="rodapeLogo">
+            <span>© Copyright 2025| Desenvolvido por</span>
+            <a href="https://site.alphacode.com.br/" target="_blank"><img src="public/assets/logo_rodape_alphacode.png" alt="rodapeLogo" id="rodapeLogo"></a>
         </div>
         <span>©Alphacode IT Solutions 2025</span>
     </footer>

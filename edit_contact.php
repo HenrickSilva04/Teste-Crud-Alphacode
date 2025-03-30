@@ -1,3 +1,6 @@
+<?php include(__DIR__ . '/app/views/partials/edit_header.php') ?>
+<?php include(__DIR__ . '/config/database_connection.php') ?>
+
 <form class="row mb-5" id="form">
     <div class="form-group col-md-6">
         <label for="inputName">Nome completo</label>
@@ -45,6 +48,10 @@
     </div>
 
     <div class="d-flex justify-content-end">
-        <button class="btn btn-primary" type="submit" name="register" id="register_btn">Cadastrar contato</button>
+        <button class="btn btn-primary" type="submit" name="update" id="update_btn">Atualizar Cadastro</button>
+        <a class="btn btn-primary" href="/TesteCrudAlphacode/index.php" role="cancel" id="cancel_btn">Cancelar</a>
     </div>
 </form>
+
+
+<?php include(__DIR__ . '/app/views/partials/footer.php') ?>
