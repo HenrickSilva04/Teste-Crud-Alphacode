@@ -1,7 +1,9 @@
 <?php include(__DIR__ . '/app/views/partials/header.php') ?>
 <?php include(__DIR__ . '/config/database_connection.php') ?>
 
+
 <?php include('input_form.php') ?>
+
 
 <hr><br>
 

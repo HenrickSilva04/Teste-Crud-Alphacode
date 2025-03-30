@@ -53,5 +53,11 @@
     </div>
 </form>
 
+<script>
+    $('#inputBirthDate').mask('00/00/0000');
+    $('#inputPhone').mask('(00) 0000-0000');
+    $('#inputMobilePhone').mask('(00) 00000-0000');
+</script>
+
 
 <?php include(__DIR__ . '/app/views/partials/footer.php') ?>
