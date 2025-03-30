@@ -30,17 +30,17 @@
     </div>
 
     <div class="form-group col-md-6">
-        <input type="checkbox" class="form-check-input" id="checkboxWhatsapp" name="f_isWhatsapp" checked />
+        <input type="checkbox" class="form-check-input" id="checkboxWhatsapp" name="f_isWhatsapp"/>
         <label class="form-check-label mb-4" for="checkboxWhatsapp">Número de celular possui Whatsapp</label>
     </div>
 
     <div class="form-group col-md-6">
-        <input type="checkbox" class="form-check-input" id="checkboxEmail" name="f_receiveEmail" checked />
+        <input type="checkbox" class="form-check-input" id="checkboxEmail" name="f_receiveEmail"/>
         <label class="form-check-label mb-4" for="checkboxEmail">Enviar notificações por E-mail</label>
     </div>
 
     <div class="form-group col-md-6">
-        <input type="checkbox" class="form-check-input" id="checkboxSms" name="f_receiveSms" checked />
+        <input type="checkbox" class="form-check-input" id="checkboxSms" name="f_receiveSms"/>
         <label class="form-check-label mb-4" for="checkboxSms">Enviar notificações por SMS</label>
     </div>
 
