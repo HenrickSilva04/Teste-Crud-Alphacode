@@ -18,5 +18,7 @@ if (isset($_POST['register'])) {
     $result = mysqli_query($connection, $query);
     if (!$result) {
         die("Query failed" . mysqli_error($connection));
+    } else {
+        header('location:index.php');
     }
 }
