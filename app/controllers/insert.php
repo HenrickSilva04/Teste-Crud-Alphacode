@@ -1,5 +1,5 @@
 <?php
-include(__DIR__ . '/config/database_connection.php');
+include(__DIR__ . '/../../config/database_connection.php');
 
 if (isset($_POST['register'])) {
 
@@ -19,6 +19,6 @@ if (isset($_POST['register'])) {
     if (!$result) {
         die("Query failed" . mysqli_error($connection));
     } else {
-        header('location:index.php');
+        header('location: /TesteCrudAlphacode/public/index.php');
     }
 }

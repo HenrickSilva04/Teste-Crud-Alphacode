@@ -1,4 +1,4 @@
-<?php include(__DIR__ . '/config/database_connection.php'); ?>
+<?php include(__DIR__ . '/../../config/database_connection.php'); ?>
 
 <?php
 
@@ -10,7 +10,7 @@ if (isset($_GET['id'])) {
     if (!$result) {
         die("Query Failed" . mysqli_error($connection));
     } else {
-        header('location:index.php');
+        header('location: /TesteCrudAlphacode/public/index.php');
     }
 }
 ?>

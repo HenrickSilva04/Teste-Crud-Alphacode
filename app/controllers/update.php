@@ -1,5 +1,5 @@
 <?php
-include(__DIR__ . '/config/database_connection.php'); ?>
+include(__DIR__ . '/../../config/database_connection.php'); ?>
 
 <?php
 
@@ -15,7 +15,7 @@ if (isset($_POST['update'])) {
     $update_occupation = $_POST['u_occupation'];
     $update_phone = $_POST['u_phone'];
     $update_mobilePhone = $_POST['u_mobilePhone'];
-    $update_isWhatsapp = isset($_POST['u_isWhatsapp']) ? 1 : 0;
+    $update_isWhatsapp = isset($_POST['u_IsWhatsapp']) ? 1 : 0;
     $update_receiveEmail = isset($_POST['u_receiveEmail']) ? 1 : 0;
     $update_receiveSms = isset($_POST['u_receiveSms']) ? 1 : 0;
 
@@ -34,9 +34,8 @@ if (isset($_POST['update'])) {
     $result = mysqli_query($connection, $query);
     if (!$result) {
         die("Query failed" . mysqli_error($connection));
-    }
-    else {
-        header("Location: /TesteCrudAlphacode/index.php");
+    } else {
+        header("Location: /TesteCrudAlphacode/public/index.php");
     }
 }
 

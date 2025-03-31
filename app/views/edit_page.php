@@ -1,6 +1,6 @@
 <?php
-include(__DIR__ . '/app/views/partials/edit_header.php');
-include(__DIR__ . '/config/database_connection.php');
+include(__DIR__ . '/partials/edit_header.php');
+include(__DIR__ . '/../../config/database_connection.php');
 
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
@@ -17,7 +17,7 @@ if (isset($_GET['id'])) {
 
 ?>
 
-<form class="row mb-5" id="form" action="update.php?id_new=<?php echo $id; ?>" method="post">
+<form class="row mb-5" id="form" action="/TesteCrudAlphacode/app/controllers/update.php?id_new=<?php echo $id; ?>" method="post">
     <div class="form-group col-md-6">
         <label for="inputName">Nome completo</label>
         <input type="text" class="form-control rounded-0 p-0 mb-5" id="inputName" name="u_name" placeholder="Ex.: Letícia Pacheco dos Santos" maxlength="200" required value="<?php echo $row['full_Name'] ?>">
@@ -76,4 +76,4 @@ if (isset($_GET['id'])) {
 </script>
 
 
-<?php include(__DIR__ . '/app/views/partials/footer.php') ?>
+<?php include(__DIR__ . '/partials/footer.php') ?>
