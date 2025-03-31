@@ -28,7 +28,9 @@
                 <td class="text-center align-middle"><?php echo $row['mobile_Phone'] ?></td>
                 <td class="text-center align-middle">
                     <button class="btn"><a href="/TesteCrudAlphacode/app/views/edit_page.php?id=<?php echo $row['id']; ?>"><img src="/TesteCrudAlphacode/public/assets/editar.png" alt="edit_ast"></a></button>
-                    <button class="btn"><a href="/TesteCrudAlphacode/app/controllers/delete.php?id=<?php echo $row['id']; ?>"><img src="/TesteCrudAlphacode/public/assets/excluir.png" alt="delete.asset"></a></button>
+                    <button class="btn" onclick="confirmDelete(<?php echo $row['id']; ?>)">
+                        <img src="/TesteCrudAlphacode/public/assets/excluir.png" alt="delete.asset">
+                    </button>
                 </td>
             </tr>
 
@@ -38,3 +40,11 @@
     ?>
     </tbody>
 </table>
+
+<script>
+    function confirmDelete(contactId) {
+        if (confirm("Tem certeza que deseja excluir este contato?")) {
+            window.location.href = "/TesteCrudAlphacode/app/controllers/delete.php?id=" + contactId;
+        }
+    }
+</script>
