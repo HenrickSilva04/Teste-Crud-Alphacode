@@ -10,10 +10,8 @@ Antes de começar, certifique-se de ter os seguintes programas instalados:
 - [MySQL Workbench](https://www.mysql.com/downloads/) (para gerenciar o banco de dados)
 
 ### **2. Clonar o Repositório**
-Abra o terminal e execute:
+Abra o terminal e execute dentro da pasta xammp/htdocs/:
 ```bash
-cd C:\xampp\htdocs\  # Navegar até a pasta do XAMPP
-
 git clone https://github.com/HenrickSilva04/TesteCrudAlphacode.git
 ```
 Isso criará uma pasta chamada `TesteCrudAlphacode` dentro de `htdocs`.
