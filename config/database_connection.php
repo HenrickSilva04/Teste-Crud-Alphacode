@@ -2,7 +2,7 @@
 
 define("HOSTNAME", "localhost");
 define("USERNAME", "root");
-define("PASSWORD", ""); //altere de acordo com seu ambiente.
+define("PASSWORD", ""); //Altere de acordo com seu ambiente.
 define("DATABASE", "contacts_db");
 
 
