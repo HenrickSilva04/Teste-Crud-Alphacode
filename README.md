@@ -20,7 +20,7 @@ Isso criará uma pasta chamada `TesteCrudAlphacode` dentro de `htdocs`.
 1. Abra o **MySQL Workbench** e conecte-se ao servidor MySQL.
 2. Execute o script SQL localizado em:
    ```
-   TesteCrudAlphacode/app/models/DatabaseScript.sql
+   TesteCrudAlphacode/app/models/sql/DatabaseScript.sql
    ```
    Isso criará o banco de dados e as tabelas necessárias.
 
